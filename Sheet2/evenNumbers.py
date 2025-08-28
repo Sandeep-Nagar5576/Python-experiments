@@ -1,5 +1,15 @@
-N = int(input("Enter a number: "))
-i = 2
-while i <= N:
-    print(i, end=" ")
-    i += 2
+''' A program to print all even numbers from 1 to N, where you have to take N as input 
+   from the user. '''
+
+# n=int(input("Enter a number "))
+# for i in range(2,n+1,2):
+#     print(i,end=' ')
+
+
+n=int(input("Enter a number "))
+i=0
+while(i<=n):
+    if(i%2==0):
+        print(i,end=' ')
+    i+=1
+    
